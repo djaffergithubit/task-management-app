@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository**:
    Clone the project to your local machine using Git:
    ```bash
-   git clone https://github.com/yourusername/task-management-app.git
+   git clone https://github.com/djaffergithubit/task-management-app.git
    cd task-management-app
 
 2. Install Backend Dependencies:
