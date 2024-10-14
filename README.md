@@ -2,8 +2,7 @@
 
 ## Description
 
-The **Task Management App** is a full-stack web application built using the MERN stack (MongoDB, Express, React, and Node.js). It allows users to manage tasks efficiently by creating, updating, and deleting tasks. The app also includes features like task prioritization, due dates, and user authentication.
-
+The **Task Management App** is a full-stack web application built using MongoDB for the unstructured and the complicated data, and mySql for the structured data, ExpressJS, ReactJS, and Node.js. It allows users to manage tasks efficiently by creating, updating, and deleting tasks. The app also includes features like task status(To Do, pending or completed) , add a task attachment, due dates, and user authentication.
 
 ## Installation Guide
 
@@ -12,6 +11,7 @@ Make sure you have the following installed on your machine:
 - **Node.js** (v12 or higher)
 - **npm** (Node Package Manager)
 - **MongoDB** (or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for cloud-hosted MongoDB)
+- **mySql** (or [XAMPP](https://www.apachefriends.org) for a local development environment)
 
 ### Steps to Install and Run the App Locally
 
