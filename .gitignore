@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+/server/node_modules
+/client/node_modules
+
+# Production
+/public/static
+/static
+
+# React build folder
+client/Build
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# ESLint cache
+.eslintcache
+
+# Babel cache
+.babelrc
+
+# Ignore all json files (except for specific ones)
+*.json
+!package.json
+!package-lock.json
+!client/package.json
+!client/package-lock.json
