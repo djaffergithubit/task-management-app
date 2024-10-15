@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 
 const Sidebar = ({ state, setState }) => {
-    const [activeButton, setActiveButton] = useState('')
     const currentPath = window.location.pathname
 
     useEffect(() => {
@@ -51,7 +50,7 @@ const Sidebar = ({ state, setState }) => {
                         <ul className="p-4 text-md font-medium tracking-wider flex-1 space-y-3">
                             {
                                 navigation.map((item, idx) => (
-                                    <li key={idx} onClick={() => setActiveButton(item.name)}>
+                                    <li key={idx}>
                                         <a href={item.href} className={`flex items-center gap-x-2 text-gray-500 p-2 rounded-lg  hover:bg-gray-100 focus:bg-gray-100 duration-150 ${((currentPath.includes('-') && ((currentPath?.toLowerCase()).replace('-', ' ')).includes((item.name).toLowerCase())) || ((currentPath?.toLowerCase())).includes((item.name).toLowerCase()) || currentPath === '/' && item.name === 'All Tasks') && 'bg-gray-100'}`}>
                                             <div className="text-gray-700 text-lg">{item.icon}</div>
                                             {item.name}
